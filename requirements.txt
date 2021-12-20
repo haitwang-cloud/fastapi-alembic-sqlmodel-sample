@@ -1,0 +1,10 @@
+uvicorn
+requests
+aiohttp
+loguru
+fastapi
+starlette
+urllib3
+alembic
+sqlalchemy
+sqlmodel
