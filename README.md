@@ -7,7 +7,7 @@ FastAPI + MySQL + Requests+ alembic + SQLmodel + aiohttp + sqlalchemy
 ```
 
 ### Project screen shoot
-![](/Users/haitwang/Downloads/ezgif.com-gif-maker.gif)
+![](./sample.gif)
 
 ### Project API doc
 
