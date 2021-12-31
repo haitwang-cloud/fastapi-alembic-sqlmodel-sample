@@ -9,3 +9,4 @@ alembic
 sqlalchemy
 sqlmodel
 mysqlclient
+pytest
