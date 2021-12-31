@@ -45,6 +45,8 @@ http://0.0.0.0:8000
 │   │   ├── api.py
 │   │   ├── db.py
 │   │   └── tools.py
+│   ├── test
+│   │   └── test_animal.py
 │   └── utils
 │       ├── log_init.py
 │       └── logging_config.json
