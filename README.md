@@ -6,6 +6,7 @@ Make an out-of-the-box backend based on FastAPI
 FastAPI + MySQL + Requests+ alembic + SQLmodel + aiohttp + sqlalchemy
 ```
 
+
 ### Project screen shoot
 ![](./sample.gif)
 
@@ -13,6 +14,52 @@ FastAPI + MySQL + Requests+ alembic + SQLmodel + aiohttp + sqlalchemy
 
 ```bash
 http://0.0.0.0:8000
+```
+
+### Tree view
+```bash
+.
+├── Dockerfile
+├── LICENSE
+├── README.md
+├── alembic
+│   ├── README
+│   ├── env.py
+│   ├── script.py.mako
+│   └── versions
+├── alembic.ini
+├── app
+│   ├── client
+│   │   ├── cats_client.py
+│   │   ├── hitokoto_client.py
+│   │   └── http.py
+│   ├── db
+│   │   ├── crud.py
+│   │   ├── database.py
+│   │   └── init.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   └── models.py
+│   ├── router
+│   │   ├── animal.py
+│   │   ├── api.py
+│   │   ├── db.py
+│   │   └── tools.py
+│   └── utils
+│       ├── log_init.py
+│       └── logging_config.json
+├── config.ini
+├── docker
+│   ├── build.sh
+│   └── run.sh
+├── handler.py
+├── logs
+│   └── access.log
+├── main.py
+├── migration
+├── pip.conf
+├── requirements.txt
+└── sample.gif
 ```
 
 ## Database
