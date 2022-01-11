@@ -18,7 +18,6 @@ http://0.0.0.0:8000
 
 ### Tree view
 ```bash
-.
 ├── Dockerfile
 ├── LICENSE
 ├── README.md
@@ -46,7 +45,10 @@ http://0.0.0.0:8000
 │   │   ├── db.py
 │   │   └── tools.py
 │   ├── test
-│   │   └── test_animal.py
+│   │   ├── benchmarktest
+│   │   │   └── locustfile.py
+│   │   └── unnitest
+│   │       └── test_animal.py
 │   └── utils
 │       ├── log_init.py
 │       └── logging_config.json
@@ -55,8 +57,6 @@ http://0.0.0.0:8000
 │   ├── build.sh
 │   └── run.sh
 ├── handler.py
-├── logs
-│   └── access.log
 ├── main.py
 ├── migration
 ├── pip.conf
@@ -102,7 +102,11 @@ sh docker/build.sh
 ```bash
 sh docker/run.sh
 ```
-
+## Test
+### unnitest
+[pytest](https://docs.pytest.org/en/6.2.x/)
+### benchmarkest
+[locust](http://docs.locust.io/en/stable/configuration.html)
 ## References
 
 - [https://fastapi.tiangolo.com/tutorial/](https://fastapi.tiangolo.com/tutorial/)
