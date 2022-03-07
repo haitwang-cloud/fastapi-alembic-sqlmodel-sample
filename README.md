@@ -116,3 +116,8 @@ sh docker/run.sh
 - [https://docs.python-requests.org/en/master/](https://docs.python-requests.org/en/master/)
 - [https://docs.sqlalchemy.org/en/14/](https://docs.sqlalchemy.org/en/14/)
 - [https://github.com/alembic/alembic](https://github.com/alembic/alembic)
+
+
+## Commit History
+
+[![Commit History Chart](https://commit-history-api.herokuapp.com/svg?repos=haitwang-cloud/fastapi-alembic-sqlmodel-sample&type=Timeline)](https://the-commit-history.vercel.app/#haitwang-cloud/fastapi-alembic-sqlmodel-sample&Timeline)
